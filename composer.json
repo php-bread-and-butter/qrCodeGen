@@ -1,0 +1,30 @@
+{
+	"name": "php-bread-and-butter/qrcodegenerator",
+	"description": "PHP QR Code Generator",
+	"type": "library",
+	"version": "1.0.1",
+	"homepage": "https://github.com/php-bread-and-butter/qrCodeGen",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "PHP is Bread and Butter",
+			"email": "ch.subhadeep@gmail.com",
+			"homepage": "https://github.com/php-bread-and-butter",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.2",
+		"ext-gd": "*",
+		"ext-json": "*",
+		"ext-mbstring": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.3"
+	},
+	"autoload": {
+		"files": [
+			"qrlib.php"
+		]
+	}
+}
